@@ -1,0 +1,49 @@
+* {
+    background-color: #282C33;
+    border-color: #2e343f;
+    text-color: #8ca0aa;
+    spacing: 0;
+    /* width: 512px; */
+    width: 25%;
+    height: 45%;
+    font: "Iosevka Nerd Font 18";
+}
+
+inputbar {
+    border: 1px 1px 1px 1px;
+    children: [prompt, entry];
+}
+
+prompt {
+    padding: 16px;
+    border: 0 1px 0 0;
+}
+
+textbox {
+    background-color: #2e343f;
+    border: 1px 1px 1px 1px;
+    /* border: 0 0 1px 0; */
+    border-color: #282C33;
+    padding: 8px 16px;
+}
+
+entry {
+    padding: 16px;
+}
+
+listview {
+    margin: 0 0 -1px 0;
+    scrollbar: true;
+    cycle: true;
+    dynamic: true;
+}
+
+element {
+    /* border: 0 0 1px 0; */
+    border: 1px 1px 1px 1px;
+    padding: 2px;
+}
+
+element selected {
+    background-color: #2e343f;
+}
