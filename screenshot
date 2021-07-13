@@ -114,7 +114,7 @@ rrmv() {
         -hide_banner \
         -loglevel error \
         -f x11grab -show_region 1 -framerate 30 -video_size %wx%h -i :0.0+%x,%y \
-        -f pulse -i alsa_input.pci-0000_00_1f.3.analog-stereo -ac 1 "$videos_directory/$dt.mp4"
+        -f pulse -i alsa_input.pci-0000_00_1f.3.analog-stereo -ac 2 "$videos_directory/$dt.mp4"
     notify-send "Screenshot" "Recording saved to $videos_directory"
 }
 
